@@ -8,6 +8,12 @@ body{
     margin: auto;
 }
 
-h1{
-	font-size:5em;
+h1#time {
+	font-size:150px!important;
+	text-align: center;
 }
+
+div#inputArea {
+    text-align: center;
+}
+
