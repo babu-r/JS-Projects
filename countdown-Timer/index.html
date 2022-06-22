@@ -4,17 +4,21 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="style.css" />
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<!--<link rel="stylesheet" href="style.css" />-->
 		<title>Countdown Timer</title>
 	</head>
 	<body>
-		<div id="container">
-			<div id="inputArea">
-				<input id="minutes" placeholder="(in seconds)" type="number" min="0">
-				<input id="start" type="button" value="Start Countdown">
+		<div id="container"class="container">
+			<div id="inputArea" class="row .col-xs-6 .col-md-4 text-center">
+				<input id="minutes" placeholder="(in seconds)" type="number" min="0" class="btn btn-info">
+				<input id="start" type="button" value="Start Countdown" class="btn btn-default">
 			</div>
-			<h1 id="time">0:00</h1>
+			<h1 id="time" class="text-center">0:00</h1>
 		</div>
-		<script src="./script.js"></script>
+		<script src="script.js"></script>
 	</body>
 </html>	
